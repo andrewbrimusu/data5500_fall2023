@@ -26,5 +26,3 @@ andy.set_anum("a00000001")
 
 print(andy.get_anum())
 
-
-

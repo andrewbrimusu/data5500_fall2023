@@ -38,5 +38,12 @@ class DeckOfCards():
         self.play_idx += 1
         return self.deck[self.play_idx - 1]
         
-        
+def main():
+    deck1 = DeckOfCards()
+    deck1.print_deck()
+    deck1.shuffle_deck()
+    deck1.print_deck()
+    
+    
+main()
 
