@@ -9,6 +9,7 @@ If your csv needs to append newest prices at the end of the csv file, a simple w
 
 import requests
 import json
+import os
 
 
 # example url to pull alphavantage data
