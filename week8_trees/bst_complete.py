@@ -214,6 +214,17 @@ def main():
     print("\nmin value: ", findMin(tree2).key)
     print("\nmin value recursive: ", findMinRec(tree2).key)
    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     ######################################################
     ######################################################
     ######################################################
@@ -236,16 +247,25 @@ def main():
     
     
     
+    
+    
+    
+    
+    start_build = time.time()
+    
     root = None
     for i in range(1000000):
         root = insert(root, random.randint(1,10000))
-        
+    
+    
+    end_build = time.time()
     
     start = time.time()
     for i in range(10000):
         findKey(root, i)
     end = time.time()
     
+    print("build tree time (sec): ", end_build - start_build)
     print("search time tree (sec): ",end-start)
     
     print("---------------------")

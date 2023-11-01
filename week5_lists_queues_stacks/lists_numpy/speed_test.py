@@ -26,15 +26,15 @@ print("time (sec): ",end2-start2)
 
 
 
-lst = []
-for i in range(10000):
-    lst.append(random.randint(1,10000))
+# lst = []
+# for i in range(10000):
+#     lst.append(random.randint(1,10000))
     
-start2 = time.time()
-for i in range(10000):
-    for j in lst:
-        if j == i:
-            break
-end2 = time.time()
+# start2 = time.time()
+# for i in range(10000):
+#     for j in lst:
+#         if j == i:
+#             break
+# end2 = time.time()
 
-print("time (sec): ",end2-start2)
+# print("time (sec): ",end2-start2)

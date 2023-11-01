@@ -16,7 +16,7 @@ def hanoi(n , source, destination, auxiliary):
     hanoi(n-1, auxiliary, destination, source)
          
 # Driver code
-n = 2
+n = 100
 hanoi(n,'A','C','B')
 print("ct: ", ct)
 

@@ -23,8 +23,11 @@ print(queue)
 # Removing elements from the queue
 print("\nElements dequeued from queue")
 print(queue.pop(0))
+print(queue)
 print(queue.pop(0))
+print(queue)
 print(queue.pop(0))
+print(queue)
  
 print("\nQueue after removing elements")
 print(queue)

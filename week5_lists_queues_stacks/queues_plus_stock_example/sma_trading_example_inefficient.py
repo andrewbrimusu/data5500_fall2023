@@ -7,6 +7,8 @@ in one at a time, right when you need them, using a queue
 import os
 
 
+
+
 # load all the prices from the file, into a Python List
 # stock prices file
 curr_dir = os.path.dirname(__file__) # get the current directory of this file
@@ -17,6 +19,10 @@ stock_fil = curr_dir + "/" + tkr + ".txt" # dirname and __file__ (this file) ret
 file = open(stock_fil, "r")
 
 prices = [float(x) for x in file.readlines()]
+
+
+
+
 
 # iterate through prices in list and run strategy
 days= 5

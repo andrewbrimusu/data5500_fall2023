@@ -12,12 +12,16 @@ def sum_numbers(n):
 print(sum_numbers(5))
 
 
+
+
+
 def sum_numbers_rec(n):
     if n == 1:
         return n
         
     return n + sum_numbers_rec(n-1) # 5 + 4 + 3 + 2 + 1
     
+
     
 print(sum_numbers_rec(5))
 
